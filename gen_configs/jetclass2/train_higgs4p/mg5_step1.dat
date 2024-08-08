@@ -1,0 +1,5 @@
+set run_mode 0
+
+import model 2HDM
+generate p p > h1 h1
+output proc

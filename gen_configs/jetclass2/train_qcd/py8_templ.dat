@@ -1,0 +1,19 @@
+! General settings
+Beams:idA = 2212                   ! first beam, p = 2212, pbar = -2212
+Beams:idB = 2212                   ! second beam, p = 2212, pbar = -2212
+Beams:eCM = 13000.                 ! CM energy of collision
+
+Tune:preferLHAPDF = 2
+Main:timesAllowErrors = 10000
+Check:epTolErr = 0.01
+Beams:setProductionScalesFromLHEF = off
+
+! PDF setting
+PDF:pSet=LHAPDF6:NNPDF31_nnlo_as_0118_mc_hessian_pdfas
+
+! Custom hard-process settings
+Random:setSeed = on
+Random:seed = 0
+Main:numberOfEvents = $NEVENT
+HardQCD:all = on
+PhaseSpace:pTHatMin = $1

@@ -1,0 +1,10 @@
+shower=OFF
+done
+set pdlabel lhapdf
+set lhaid 315000
+set use_syst False
+set nevents $NEVENT
+set iseed $SEED
+set param_card mass 37 $1
+set pt_min_pdg 37:$2
+done
