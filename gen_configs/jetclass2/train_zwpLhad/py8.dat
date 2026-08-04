@@ -1,0 +1,13 @@
+Main:numberOfEvents      = -1
+HEPMCoutput:file         = events.hepmc
+SysCalc:fullCutVariation = off
+Random:setSeed           = on
+Random:seed              = 0
+Beams:frameType          = 4
+JetMatching:setMad       = off
+JetMatching:etaJetMax    = 1.0000000000e+03
+HEPMCoutput:scaling      = 1.0000000000e+09
+Check:epTolErr           = 1.0000000000e-02
+LHEFInputs:nSubruns      = 1
+Main:subrun              = 0
+Beams:LHEF               = unweighted_events.lhe.gz

@@ -157,6 +157,7 @@ Important runtime notes:
 | `jetclass2/train_higgs4p` | `./run.sh jetclass2/train_higgs4p 100000 100 [job_num]` | 4-parton resonance prototype |
 | `jetclass2/train_qcd` | `./run.sh jetclass2/train_qcd 100000 100 [job_num]` | Pythia8-only QCD production |
 | `jetclass2/train_zz` | `./run.sh jetclass2/train_zz 100000 100 [job_num]` | Standard Model `pp -> ZZ` prototype at 13.6 TeV with MadSpin Z decays |
+| `jetclass2/train_zwpLhad` | `./run.sh jetclass2/train_zwLhad 100000 100 [job_num]` | Standard Model `pp -> Z W+L`, W+ longitudinal decaying hadronically and Z leptonically prototype at 13.6 TeV with MadSpin |
 
 ## How process configs are structured
 

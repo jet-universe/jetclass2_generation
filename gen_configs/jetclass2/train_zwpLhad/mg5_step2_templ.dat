@@ -1,0 +1,11 @@
+shower=OFF
+madspin=ON
+done
+set pdlabel lhapdf
+set lhaid 315000
+set use_syst False
+set ebeam1 6800
+set ebeam2 6800
+set nevents $NEVENT
+set iseed $SEED
+done
